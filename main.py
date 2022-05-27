@@ -8,7 +8,7 @@ def main():
     # Define input file
     input_file = "sample_input.txt"
 
-    # Data extraction
+    # Create a Data Extraction object, input the file and extract data from it
     de = DataExtraction()
     de.setFile(input_file)
     data = de.getData()
